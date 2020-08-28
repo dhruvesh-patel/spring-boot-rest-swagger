@@ -1,0 +1,1 @@
+This is spring boot REST api and demonstrates integration with swagger to document APIs. 
