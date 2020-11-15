@@ -1,23 +1,26 @@
 This repo demonstrades is spring boot REST API and demonstrates integration with swagger to document APIs. 
 
-Pre-requisite:
+## Pre-requisite:
 1) JDK 11
 2) Eclipse / IntelliJ IDE 
 3) Maven (if not part of IDE already)
 
-Steps to Setup :
+## Steps to Setup :
 1. Clone the application
 https://github.com/dhruvesh-patel/spring-boot-rest-swagger.git
 
 2. Go to src/main/resources/application.properties file and note H2 database user name & password. 
+```
 spring.datasource.username=XXXXX
 spring.datasource.password=XXXXX
+```
 
 3. Build and run the app using IDE / maven
-
+```
 mvn clean install 
 mvn spring-boot:run
 The app will start running - check app health using http://localhost:8651/api/v1/health.
+```
 
 4. For in-memory H2 database console, Use this URL - http://localhost:8651/h2-console and below values (refer above point 2 for user name / password).
 
@@ -32,6 +35,7 @@ select * from USERS;
 
 6. Explore Rest APIs. This app defines following CRUD APIs.
 
+```
 GET /api/v1/users
 
 GET /api/v1/users/{userId}
@@ -64,4 +68,4 @@ Sample Put Request -
   "createdBy": "SYSTEM",
   "updatedBy": "SYSTEM"
 }
-
+```
