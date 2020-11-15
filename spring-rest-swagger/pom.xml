@@ -12,7 +12,7 @@
 	<artifactId>spring-rest-swagger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-rest-swagger</name>
-	<description>Demo project for Spring Boot</description>
+	<description>User Service - Spring boot CRUD - Swagger Project</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -24,7 +24,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.hibernate.validator</groupId>
+		    <artifactId>hibernate-validator</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.springdoc</groupId>
+		    <artifactId>springdoc-openapi-ui</artifactId>
+		    <version>1.2.32</version>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
