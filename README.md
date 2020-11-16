@@ -24,9 +24,11 @@ The app will start running - check app health using http://localhost:8651/api/v1
 
 4. For in-memory H2 database console, Use this URL - http://localhost:8651/h2-console and below values (refer above point 2 for user name / password).
 
+```
 JDBC URL - jdbc:h2:mem:testdb
 User name - xxxxx
 Password - xxxxx
+```
 
 You can run below query and check USERS table is created with 5 rows in it (as we have defined data.sql under resources folder). 
 select * from USERS;
