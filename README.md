@@ -1,4 +1,4 @@
-This repo demonstrades is spring boot REST API and demonstrates integration with swagger to document APIs. 
+This repo demonstrates is spring boot REST API and demonstrates integration with swagger to document APIs. 
 
 ## Pre-requisite:
 1) JDK 11
